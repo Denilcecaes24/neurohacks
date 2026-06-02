@@ -1,0 +1,185 @@
+:root {
+    --color-rojo-hacks: #a80165;
+    --color-celeste: #7c97b1;
+    --color-celeste-osc: #123b43;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    padding: 16px 0;
+    margin: 0;
+    background-color: #ececec73;
+    z-index: 10;
+    border-bottom: 0;
+}
+
+.cont-hd-1 {
+    width: 90%;
+    max-width: 1200px;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sc-logo-hd {
+    width: 20%;
+    max-width: 100px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.sc-logo-hd img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.sc-menu-hd {
+    width: fit-content;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.card-btn {
+    position: relative;
+
+    width: fit-content;
+    height: auto;
+
+    background: var(--color-rojo-hacks);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 8px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* SVG decorativo */
+.card-btn .punto-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: white;
+}
+
+.card-btn p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.link-wa {
+    display: flex;
+    width: fit-content;
+    margin: 0 0 0 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+.btn-whats {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.box-icon-wa {
+    width: auto;
+    height: auto;
+    margin: 0 5px 0 0;
+
+}
+
+.box-icon-wa i{
+    font-size: 36px;
+    color: #0da344;
+}
+
+.box-txt-wa {
+    width: auto;
+    height: auto;
+    margin: 0 0 0 0;
+}
+
+.txt-ch-1 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: black;
+}
+
+.txt-gr-1 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.0;
+    color: black;
+}
+
+ @media(max-width: 699px) {
+
+    header{
+        padding: 10px 0;
+    }
+
+    .sc-logo-hd {
+        width: 15%;
+        max-width: 80px;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .card-btn {
+        padding: 8px 10px;
+    }
+
+    .card-btn p{
+        font-size: 14px;
+    }
+
+    .link-wa {
+        margin: 0 0 0 4px;
+
+    }
+
+    .box-icon-wa {
+        width: auto;
+        height: auto;
+        margin: 0 2px 0 0;
+    }
+
+    .box-icon-wa i{
+        font-size: 24px;
+    }
+
+    .txt-ch-1 {
+        font-size: 8px;
+    }
+
+    .txt-gr-1 {
+        font-size: 15px;
+    }
+
+    .txt-non {
+        display: none;
+    }
+
+ }
+
+

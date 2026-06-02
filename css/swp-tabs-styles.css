@@ -1,0 +1,145 @@
+.txt-cons {
+    font-size: 20px;
+    font-weight: 600;
+    color: #a80165;
+}
+
+.txt-cons i {
+    font-size: 22px;
+  
+}
+
+.cont-w-100 {
+    width: 100%;
+    height: auto;
+}
+
+.cont-swp-btns {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    z-index: 0;
+    background-color: transparent;
+
+}
+
+.cont-swp-btns .swiper {
+      width: 100%;
+      height: auto;
+      padding: 0 10px;
+      background-color: transparent;
+}
+
+.cont-swp-btns .swiper-slide {
+    height: auto;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.cont-swp-btns .mySwiper2s2 {
+      height: 100%;
+      width: 100%;
+      margin: 0 0 0 0;
+      background-color: transparent;
+    }
+
+.cont-swp-btns .mySwipers1 {
+    height: auto;
+    box-sizing: border-box;
+    padding: 8px 0;
+    margin-top: 16px;
+}
+
+.cont-swp-btns .mySwipers1 .ct-sl {
+    display: none;
+}
+
+     .mySwipers1 .swiper-slide {
+      width: 20%;
+      height: 100%;
+      opacity: 0.4;
+    }
+
+    .mySwipers1 .swiper-slide-thumb-active {
+      opacity: 1;
+    }
+
+
+ .cont-swp-btns  .mySwipers1 .swiper-slide {
+    position: relative;
+    width: fit-content;
+    background: #a80165;
+    color: #fff;
+    height: auto;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    opacity: 1.0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cont-swp-btns  .mySwipers1 .swiper-slide .punto-btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: white;
+}
+
+.cont-swp-btns  .mySwipers1 .swiper-slide p{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cont-swp-btns .mySwipers1 .swiper-slide-thumb-active {
+  background: green;
+  opacity: 1;
+}
+
+ @media(max-width: 799px) {
+
+    .txt-cons {
+        font-size: 18px;
+    }
+
+    .txt-cons i {
+        font-size: 20px;
+    }
+
+    .cont-swp-btns .mySwipers1 .ct-sl {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 4px;
+    }
+
+      .cont-swp-btns .mySwipers1 .ct-sl p {
+        font-size: 14px;
+        font-weight: 400;
+        color: gray;
+        text-align: center;
+    }
+
+    .cont-swp-btns .swiper-slide {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .cont-swp-btns  .mySwipers1 .swiper-slide p{
+        font-size: 14px;
+    }
+
+
+ }
