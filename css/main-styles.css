@@ -868,6 +868,7 @@ h1 {
 
     h1 {
         font-size: 28px;
+        font-weight: 600;
     }
 
     .txt-dest-bn {
@@ -1132,7 +1133,8 @@ h1 {
     }
 
     .subtit-h3 {
-      font-size: 26px;
+      font-size: 24px;
+      font-weight: 600;
     }
 
 
