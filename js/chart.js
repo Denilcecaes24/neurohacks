@@ -32,10 +32,10 @@ const info = [
 
 const colors = [
   '#ffffff',
-  '#fffff1',
-  '#fffff2',
-  '#fffff3',
-  '#fffff4'
+  '#ffffff',
+  '#ffffff',
+  '#ffffff',
+  '#ffffff'
 ];
 
 const option = {
